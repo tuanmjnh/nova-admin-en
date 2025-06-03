@@ -3,7 +3,7 @@ import { useEcharts } from '@/hooks'
 import type { ECOption } from '@/hooks'
 import { graphic } from 'echarts'
 
-// 饼状图
+// Pie Chart
 const pieOptions = ref<ECOption>({
   title: {
     text: 'Pie Chart',
